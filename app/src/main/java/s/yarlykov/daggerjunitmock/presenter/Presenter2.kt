@@ -1,8 +1,8 @@
 package s.yarlykov.daggerjunitmock.presenter
 
-class Presenter2(id : Int) : BasePresenter(id) {
+class Presenter2(private val activity: IActivity, id : Int) : BasePresenter(id) {
     override fun onActivityCreated() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        activity.showInfo("${this::class.java.simpleName}::id $id")
     }
 
     override fun onActivityDestroyed() {

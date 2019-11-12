@@ -10,6 +10,9 @@ import s.yarlykov.daggerjunitmock.di.scope.Scope3
 import s.yarlykov.daggerjunitmock.presenter.Presenter1
 import s.yarlykov.daggerjunitmock.presenter.Presenter2
 import s.yarlykov.daggerjunitmock.presenter.Presenter3
+import s.yarlykov.daggerjunitmock.ui.Activity1
+import s.yarlykov.daggerjunitmock.ui.Activity2
+import s.yarlykov.daggerjunitmock.ui.Activity3
 import javax.inject.Singleton
 
 @Module
@@ -27,13 +30,13 @@ class AppModule (private val application: Application) {
 
     @Scope1
     @Provides
-    fun providePresenter1() : Presenter1 = Presenter1(presenterId++)
+    fun providePresenter1(activity : Activity1) : Presenter1 = Presenter1(activity, presenterId++)
 
     @Scope2
     @Provides
-    fun providePresenter2() : Presenter2 = Presenter2(presenterId++)
+    fun providePresenter2(activity : Activity2) : Presenter2 = Presenter2(activity, presenterId++)
 
     @Scope3
     @Provides
-    fun providePresenter3() : Presenter3 = Presenter3(presenterId++)
+    fun providePresenter3(activity : Activity3) : Presenter3 = Presenter3(activity, presenterId++)
 }

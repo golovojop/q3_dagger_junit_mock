@@ -1,0 +1,100 @@
+package s.yarlykov.daggerjunitmock.domain;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class UserGit {
+
+    @SerializedName("login")
+    @Expose
+    public String login;
+    @SerializedName("id")
+    @Expose
+    public int id;
+    @SerializedName("node_id")
+    @Expose
+    public String nodeId;
+    @SerializedName("avatar_url")
+    @Expose
+    public String avatarUrl;
+    @SerializedName("gravatar_id")
+    @Expose
+    public String gravatarId;
+    @SerializedName("url")
+    @Expose
+    public String url;
+    @SerializedName("html_url")
+    @Expose
+    public String htmlUrl;
+    @SerializedName("followers_url")
+    @Expose
+    public String followersUrl;
+    @SerializedName("following_url")
+    @Expose
+    public String followingUrl;
+    @SerializedName("gists_url")
+    @Expose
+    public String gistsUrl;
+    @SerializedName("starred_url")
+    @Expose
+    public String starredUrl;
+    @SerializedName("subscriptions_url")
+    @Expose
+    public String subscriptionsUrl;
+    @SerializedName("organizations_url")
+    @Expose
+    public String organizationsUrl;
+    @SerializedName("repos_url")
+    @Expose
+    public String reposUrl;
+    @SerializedName("events_url")
+    @Expose
+    public String eventsUrl;
+    @SerializedName("received_events_url")
+    @Expose
+    public String receivedEventsUrl;
+    @SerializedName("type")
+    @Expose
+    public String type;
+    @SerializedName("site_admin")
+    @Expose
+    public boolean siteAdmin;
+
+    public UserGit(String login, int id, String nodeId,
+                   String avatarUrl, String gravatarId,
+                   String url, String htmlUrl, String followersUrl, String followingUrl,
+                   String gistsUrl, String starredUrl, String subscriptionsUrl,
+                   String organizationsUrl, String reposUrl, String eventsUrl,
+                   String receivedEventsUrl, String type, boolean siteAdmin) {
+        this.login = login;
+        this.id = id;
+        this.nodeId = nodeId;
+        this.avatarUrl = avatarUrl;
+        this.gravatarId = gravatarId;
+        this.url = url;
+        this.htmlUrl = htmlUrl;
+        this.followersUrl = followersUrl;
+        this.followingUrl = followingUrl;
+        this.gistsUrl = gistsUrl;
+        this.starredUrl = starredUrl;
+        this.subscriptionsUrl = subscriptionsUrl;
+        this.organizationsUrl = organizationsUrl;
+        this.reposUrl = reposUrl;
+        this.eventsUrl = eventsUrl;
+        this.receivedEventsUrl = receivedEventsUrl;
+        this.type = type;
+        this.siteAdmin = siteAdmin;
+    }
+
+    public UserGit() {
+    }
+
+    public static User toUser(UserGit userGit) {
+        return new User(
+                userGit.id,
+                userGit.login,
+                userGit.avatarUrl,
+                userGit.reposUrl
+        );
+    }
+}

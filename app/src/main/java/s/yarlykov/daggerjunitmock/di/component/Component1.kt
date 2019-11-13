@@ -6,7 +6,9 @@ package s.yarlykov.daggerjunitmock.di.component
 
 import dagger.BindsInstance
 import dagger.Component
+import s.yarlykov.daggerjunitmock.data.GitHelper
 import s.yarlykov.daggerjunitmock.di.module.AppModule
+import s.yarlykov.daggerjunitmock.di.module.NetworkModule
 import s.yarlykov.daggerjunitmock.di.scope.Scope1
 import s.yarlykov.daggerjunitmock.ui.Activity1
 

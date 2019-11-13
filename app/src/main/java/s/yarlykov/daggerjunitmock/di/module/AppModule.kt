@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import dagger.Module
 import dagger.Provides
+import s.yarlykov.daggerjunitmock.data.GitHelper
 import s.yarlykov.daggerjunitmock.di.scope.Scope1
 import s.yarlykov.daggerjunitmock.di.scope.Scope2
 import s.yarlykov.daggerjunitmock.di.scope.Scope3
@@ -30,7 +31,7 @@ class AppModule (private val application: Application) {
 
     @Scope1
     @Provides
-    fun providePresenter1(activity : Activity1) : Presenter1 = Presenter1(activity, presenterId++)
+    fun providePresenter1(activity : Activity1, gitHelper: GitHelper) : Presenter1 = Presenter1(activity, gitHelper, presenterId++)
 
     @Scope2
     @Provides

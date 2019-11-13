@@ -24,7 +24,7 @@ class Presenter1(private val activity: IActivity, private val gitHelper: GitHelp
     private val subscriber = object : SingleObserver<List<User>> {
 
         override fun onSuccess(t: List<User>) {
-            activity.showInfo("${t.size} records reseived")
+            activity.showInfo("${t.size} records received")
         }
 
         override fun onSubscribe(d: Disposable) {

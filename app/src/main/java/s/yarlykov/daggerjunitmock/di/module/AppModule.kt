@@ -31,13 +31,16 @@ class AppModule (private val application: Application) {
 
     @Scope1
     @Provides
-    fun providePresenter1(activity : Activity1, gitHelper: GitHelper) : Presenter1 = Presenter1(activity, gitHelper, presenterId++)
+    fun providePresenter1(activity : Activity1, gitHelper: GitHelper)
+            : Presenter1 = Presenter1(activity, gitHelper, presenterId++)
 
     @Scope2
     @Provides
-    fun providePresenter2(activity : Activity2) : Presenter2 = Presenter2(activity, presenterId++)
+    fun providePresenter2(activity : Activity2)
+            : Presenter2 = Presenter2(activity, presenterId++)
 
     @Scope3
     @Provides
-    fun providePresenter3(activity : Activity3) : Presenter3 = Presenter3(activity, presenterId++)
+    fun providePresenter3(activity : Activity3)
+            : Presenter3 = Presenter3(activity, presenterId++)
 }

@@ -5,24 +5,21 @@ import s.yarlykov.daggerjunitmock.di.component.AppComponent
 import s.yarlykov.daggerjunitmock.di.component.DaggerAppComponent
 import s.yarlykov.daggerjunitmock.di.module.AppModule
 import s.yarlykov.daggerjunitmock.di.module.NetworkModule
+import s.yarlykov.daggerjunitmock.logIt
 
-class EducationApp : Application() {
+open class EducationApp : Application(), BaseApp {
 
     companion object {
         const val baseUrl = "https://api.github.com/"
     }
 
-    lateinit var appComponent: AppComponent
-        private set
-
-    lateinit var appModule: AppModule
-        private set
-
-    lateinit var netModule : NetworkModule
-        private set
+    override lateinit var appComponent: AppComponent
+    override lateinit var appModule: AppModule
+    override lateinit var netModule : NetworkModule
 
     override fun onCreate() {
         super.onCreate()
+        logIt("${this.javaClass.simpleName}::onCreate()")
 
         appModule = AppModule(this)
         netModule = NetworkModule(baseUrl)

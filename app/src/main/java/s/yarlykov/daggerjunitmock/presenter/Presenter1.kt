@@ -31,7 +31,7 @@ class Presenter1(private val activity: IActivity, private val gitHelper: GitHelp
         }
 
         override fun onError(e: Throwable) {
-            logIt(e.message.toString())
+            logIt("Presenter1::onError ${e.message.toString()}")
         }
     }
 }

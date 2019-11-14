@@ -1,8 +1,6 @@
 package s.yarlykov.daggerjunitmock
 
 import s.yarlykov.daggerjunitmock.application.EducationApp
-import s.yarlykov.daggerjunitmock.di.component.DaggerAppComponent
-import s.yarlykov.daggerjunitmock.di.module.AppModule
 import s.yarlykov.daggerjunitmock.di.module.NetworkModule
 
 

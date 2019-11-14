@@ -60,6 +60,16 @@ public class UserGit {
     @Expose
     public boolean siteAdmin;
 
+    // For test
+    public UserGit(int id, String login, String avatarUrl, String reposUrl) {
+        this.id = id;
+        this.login = login;
+        this.avatarUrl = avatarUrl;
+        this.reposUrl = reposUrl;
+
+
+    }
+
     public UserGit(String login, int id, String nodeId,
                    String avatarUrl, String gravatarId,
                    String url, String htmlUrl, String followersUrl, String followingUrl,

@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import s.yarlykov.daggerjunitmock.R
+import s.yarlykov.daggerjunitmock.application.BaseApp
 import s.yarlykov.daggerjunitmock.application.EducationApp
 import s.yarlykov.daggerjunitmock.di.component.DaggerComponent2
 import s.yarlykov.daggerjunitmock.logIt
@@ -23,8 +24,8 @@ class Activity2  : AppCompatActivity(), IActivity {
 
         val component = DaggerComponent2
             .builder()
-            .appModule((application as EducationApp).appModule)
-            .addDependency((application as EducationApp).appComponent)
+            .appModule((application as BaseApp).appModule)
+            .addDependency((application as BaseApp).appComponent)
             .bindActivity(this)
             .build()
 

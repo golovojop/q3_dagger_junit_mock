@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
 @Module
-class NetworkModule(private val baseUrl: String) {
+open class NetworkModule(private val baseUrl: String) {
 
     @Provides
     @Singleton
@@ -51,7 +51,7 @@ class NetworkModule(private val baseUrl: String) {
 
     @Provides
     @Singleton
-    fun provideRetrofit(gson: Gson, factory: CallAdapter.Factory, okHttpClient: OkHttpClient): Retrofit =
+    open fun provideRetrofit(gson: Gson, factory: CallAdapter.Factory, okHttpClient: OkHttpClient): Retrofit =
         Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create(gson))
             .addCallAdapterFactory(factory)

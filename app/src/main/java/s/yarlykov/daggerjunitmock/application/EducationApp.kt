@@ -13,21 +13,22 @@ open class EducationApp : Application(), BaseApp {
         const val baseUrl = "https://api.github.com/"
     }
 
-    override lateinit var appComponent: AppComponent
-    override lateinit var appModule: AppModule
-    override lateinit var netModule : NetworkModule
-
-    override fun onCreate() {
-        super.onCreate()
-        logIt("${this.javaClass.simpleName}::onCreate()")
-
-        appModule = AppModule(this)
-        netModule = NetworkModule(baseUrl)
-
-        appComponent = DaggerAppComponent
+    override val appModule: AppModule by lazy (LazyThreadSafetyMode.NONE) {
+        AppModule(this)
+    }
+    override val appComponent : AppComponent by lazy (LazyThreadSafetyMode.NONE) {
+        DaggerAppComponent
             .builder()
             .appModule(appModule)
             .networkModule(netModule)
             .build()
+    }
+    override val netModule: NetworkModule by lazy (LazyThreadSafetyMode.NONE) {
+        NetworkModule(baseUrl)
+    }
+
+    override fun onCreate() {
+        super.onCreate()
+        logIt("${this.javaClass.simpleName}::onCreate()")
     }
 }

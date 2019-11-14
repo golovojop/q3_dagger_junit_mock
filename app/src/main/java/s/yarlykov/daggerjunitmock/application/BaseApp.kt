@@ -5,7 +5,7 @@ import s.yarlykov.daggerjunitmock.di.module.AppModule
 import s.yarlykov.daggerjunitmock.di.module.NetworkModule
 
 interface BaseApp {
-     var appComponent: AppComponent
-     var appModule: AppModule
-     var netModule : NetworkModule
+    val appComponent: AppComponent
+    val appModule: AppModule
+    val netModule: NetworkModule
 }

@@ -20,24 +20,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_20_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_20_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_20_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_20_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/s/yarlykov/daggerjunitmock/MainActivityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/s/yarlykov/daggerjunitmock/MainActivityTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/IActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/IActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/Presenter1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/Presenter1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +37,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Y15HFBP722VUR" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="J8AXB765E780CEB" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -67,31 +53,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity1.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/Presenter1.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="374">
+              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
-                <element signature="e#46#357#0" expanded="true" />
+                <element signature="e#46#394#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/s/yarlykov/daggerjunitmock/EducationAppTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -99,17 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/s/yarlykov/daggerjunitmock/MainActivityTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="63" selection-start-line="63" selection-start-column="2" selection-end-line="69" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/monitor/1.2.0/dbbc3050e0945ecea95f4e25b72e169cfe6f32bc/monitor-1.2.0-sources.jar!/androidx/test/platform/app/InstrumentationRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="1298">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
@@ -129,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/di/module/NetworkModule.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
+            <state relative-caret-position="528">
               <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
             </state>
           </provider>
@@ -185,10 +144,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/IActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity2.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity3.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/Presenter1.kt" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity1.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/s/yarlykov/daggerjunitmock/MainActivityTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/Presenter1.kt" />
       </list>
     </option>
   </component>
@@ -643,34 +602,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainActivityTest - 2019.11.14 at 14h 45m 11s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 17h 33m 49s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 14h 55m 12s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 17h 52m 28s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 14h 59m 35s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 18h 18m 55s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 15h 03m 21s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 18h 21m 14s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 15h 10m 27s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 18h 25m 51s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 15h 12m 22s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 18h 27m 10s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 15h 18m 44s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 18h 31m 41s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 15h 29m 53s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 18h 34m 39s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 15h 39m 50s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 18h 43m 54s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="MainActivityTest - 2019.11.14 at 15h 48m 42s.xml">
+    <history-entry file="MainActivityTest - 2019.11.14 at 18h 47m 58s.xml">
       <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
   </component>
@@ -686,8 +645,8 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" visible="true" weight="0.26086956" />
-      <window_info active="true" anchor="bottom" x="9" y="37" width="1712" height="441" id="Logcat" order="1" type="WINDOWED" visible="true" weight="0.56856185" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.43589744" />
+      <window_info anchor="bottom" x="9" y="37" width="1712" height="441" id="Logcat" order="1" type="WINDOWED" visible="true" weight="0.56856185" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34225196" />
       <window_info anchor="bottom" id="Terminal" order="4" />
@@ -740,31 +699,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/s/yarlykov/daggerjunitmock/di/component/Component1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/s/yarlykov/daggerjunitmock/Presenter1Test.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/s/yarlykov/daggerjunitmock/MainServiceTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#36#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Rule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/rules/TemporaryFolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
@@ -1037,16 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/Presenter1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#46#357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/data/GitHelper.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1057,10 +981,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.espresso/espresso-core/3.2.0/5d1b7f5b3c2877929324f5c846da358995c9af6d/espresso-core-3.2.0-sources.jar!/androidx/test/espresso/matcher/ViewMatchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="514" column="53" selection-start-line="514" selection-start-column="46" selection-end-line="514" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/8ac406cf33e942265c4abb33ee0acdee79292dd6/kotlin-stdlib-common-1.3.50-sources.jar!/kotlin/util/Preconditions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/di/module/NetworkModule.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
+        <state relative-caret-position="528">
           <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="966" column="28" selection-start-line="966" selection-start-column="28" selection-end-line="966" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1071,10 +1030,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/ui/Activity1.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/s/yarlykov/daggerjunitmock/presenter/Presenter1.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#46#394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/s/yarlykov/daggerjunitmock/MainActivityTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="63" selection-start-line="63" selection-start-column="2" selection-end-line="69" selection-end-column="7" />
+        <state relative-caret-position="1298">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>

@@ -7,12 +7,14 @@ import io.reactivex.schedulers.Schedulers
 import s.yarlykov.daggerjunitmock.data.GitHelper
 import s.yarlykov.daggerjunitmock.domain.User
 import s.yarlykov.daggerjunitmock.logIt
+import java.util.concurrent.TimeUnit
 
 class Presenter1(private val activity: IActivity, private val gitHelper: GitHelper, id : Int) : BasePresenter(id) {
     override fun onActivityCreated() {
 
         gitHelper
             .getUsers()
+//            .delay(5, TimeUnit.SECONDS)             // <-- For test only
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(subscriber)

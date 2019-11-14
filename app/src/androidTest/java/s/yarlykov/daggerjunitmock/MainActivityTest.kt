@@ -1,6 +1,8 @@
 package s.yarlykov.daggerjunitmock
 
 import android.content.Intent
+import android.view.View
+import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.assertion.ViewAssertions.matches
@@ -29,7 +31,7 @@ class MainActivityTest {
             UserGit(1, "mars", "", ""),
             UserGit(2, "venus", "", "")))
 
-        throttleBody(32, 1, TimeUnit.SECONDS)
+//        throttleBody(8, 1, TimeUnit.SECONDS)
 
         addHeader("Content-Type", "application/json; charset=utf-8")
         addHeader("Cache-Control", "no-cache")
@@ -44,7 +46,7 @@ class MainActivityTest {
         mockWebServer.start(8080)
     }
 
-    @Test
+    @Ignore
     fun shouldBeCorrectIntent() {
         activityRule.launchActivity(
             Intent(Intent.ACTION_MAIN).apply {
@@ -54,15 +56,26 @@ class MainActivityTest {
 
         val activity = activityRule.activity
         val tv = activity.findViewById<TextView>(R.id.tvInfo)
+        val pb = activity.findViewById<ProgressBar>(R.id.pbLoading)
         assertThat(tv, notNullValue())
+        assertThat(pb, notNullValue())
+
         assertThat(tv.text.toString(), `is`("MESSAGE_HELLO"))
+        assertThat(pb.visibility, `is`(View.VISIBLE))
     }
 
     @Test
-    fun shouldHideProgressBarAfterDataLoaded() {
+    fun shouldBeServerResponseWithTwoJsons() {
         activityRule.launchActivity(Intent())
-        Espresso.onView(withId(R.id.pbLoading)).check(matches(not(isDisplayed())))
-        Espresso.onView(withId(R.id.tvInfo)).check(matches(isDisplayed()))
+        val activity = activityRule.activity
+
+        val tv = activity.findViewById<TextView>(R.id.tvInfo)
+        val pb = activity.findViewById<ProgressBar>(R.id.pbLoading)
+        assertThat(tv, notNullValue())
+        assertThat(pb, notNullValue())
+
+        assertThat(tv.text.toString(), containsString("2 records"))
+        assertThat(pb.visibility, `is`(View.INVISIBLE))
     }
 
     @After

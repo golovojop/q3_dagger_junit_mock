@@ -2,6 +2,7 @@ package s.yarlykov.daggerjunitmock.ui
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import s.yarlykov.daggerjunitmock.R
@@ -30,15 +31,28 @@ class Activity1 : AppCompatActivity(), IActivity {
 
         component.inject(this)
 
-        presenter.onActivityCreated()
+        // For Test
+        intent.extras?.getString("KEY_HELLO")?.let {
+            tvInfo.text = it
+            logIt("Message from Intent: $it")
+        }
 
         initView()
+
+        presenter.onActivityCreated()
     }
 
     override fun showInfo(info: String) {
         val message = "${this::class.java.simpleName}::showInfo - $info"
         tvInfo.text = message
+        tvInfo.visibility = View.VISIBLE
+        pbLoading.visibility = View.INVISIBLE
         logIt(message)
+    }
+
+    override fun showLoading() {
+        tvInfo.visibility = View.INVISIBLE
+        pbLoading.visibility = View.VISIBLE
     }
 
     private fun initView() {

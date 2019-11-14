@@ -42,6 +42,11 @@ class Activity2  : AppCompatActivity(), IActivity {
         logIt(message)
     }
 
+    override fun showLoading() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+
     private fun initView() {
         btnBack.setOnClickListener {
             finish()

@@ -10,11 +10,14 @@ import s.yarlykov.daggerjunitmock.logIt
 
 class Presenter1(private val activity: IActivity, private val gitHelper: GitHelper, id : Int) : BasePresenter(id) {
     override fun onActivityCreated() {
+
         gitHelper
             .getUsers()
             .subscribeOn(Schedulers.io())
-            .subscribeOn(AndroidSchedulers.mainThread())
+            .observeOn(AndroidSchedulers.mainThread())
             .subscribe(subscriber)
+
+        activity.showLoading()
     }
 
     override fun onActivityDestroyed() {

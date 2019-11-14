@@ -25,7 +25,7 @@ class MainActivityTest {
 
         val json = Gson().toJson(arrayOf(
             UserGit(1, "mars", "", ""),
-            UserGit(2, "venera", "", "")))
+            UserGit(2, "venus", "", "")))
 
         addHeader("Content-Type", "application/json; charset=utf-8")
         addHeader("Cache-Control", "no-cache")

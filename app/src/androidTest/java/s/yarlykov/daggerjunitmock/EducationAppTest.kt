@@ -3,7 +3,6 @@ package s.yarlykov.daggerjunitmock
 import s.yarlykov.daggerjunitmock.application.EducationApp
 import s.yarlykov.daggerjunitmock.di.module.NetworkModule
 
-
 class EducationAppTest : EducationApp() {
 
     companion object {
@@ -18,6 +17,5 @@ class EducationAppTest : EducationApp() {
         super.onCreate()
         logIt("${this.javaClass.simpleName}::onCreate()")
     }
-
 
 }

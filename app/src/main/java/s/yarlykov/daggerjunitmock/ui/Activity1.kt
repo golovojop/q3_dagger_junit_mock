@@ -1,12 +1,11 @@
 package s.yarlykov.daggerjunitmock.ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import s.yarlykov.daggerjunitmock.R
 import s.yarlykov.daggerjunitmock.application.BaseApp
-import s.yarlykov.daggerjunitmock.application.EducationApp
 import s.yarlykov.daggerjunitmock.di.component.DaggerComponent1
 import s.yarlykov.daggerjunitmock.logIt
 import s.yarlykov.daggerjunitmock.presenter.IActivity
